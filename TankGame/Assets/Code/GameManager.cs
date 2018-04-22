@@ -115,6 +115,8 @@ namespace TankGame
 
 		private void Init()
 		{
+            Time.timeScale = 1;
+
 			InitLocalization();
 
 			IsClosing = false;
